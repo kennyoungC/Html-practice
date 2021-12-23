@@ -1,12 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html</title>
-</head>
-<body>
-    
-</body>
-</html>
+<html>
+    <head>
+        <title>HTML cheat sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">go to blog</a>
+        <hr>
+        <!-- HEADINGS -->
+        <h1>Heading one</h1>
+        <h2>Heading two</h2>
+        <h3>Heading three</h3>
+        <h4>Heading four</h4>
+        <h5>Heading five</h5>
+        <h6>Heading six</h6>
+
+        <!-- PARAGRAPHS -->
+        <p>
+        </p>
+        Lorem ipsum dolor amet <strong>adipisicing elit</strong> . Nesciunt quibusdam ipsa vel, quia error voluptatem deserunt impedit quisquam laborum ea commodi natus cumque quae sit minus beatae corrupti fugiat sed.
+        <p>
+            Lorem ipsum <a href="http://google.com" target="_blank">dolor sit amet</a> consectetur adipisicing elit. Nesciunt quibusdam ipsa vel, quia error voluptatem deserunt impedit quisquam laborum ea commodi natus cumque quae sit minus beatae corrupti fugiat sed.
+        </p>
+        <p>
+            Lorem ipsum <em>dolor sit amet</em> consectetur adipisicing elit. Nesciunt quibusdam ipsa vel, quia error voluptatem deserunt impedit quisquam laborum ea commodi natus cumque quae sit minus beatae corrupti fugiat sed.
+        </p>
+
+        <!-- LISTS -->
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+        </ul>
+        <ol>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+        </ol>
+
+        <!-- TABLE -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>email</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>obi kenneth</td>
+                    <td>obikenneth@gmail.com</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>silas adeyemo</td>
+                    <td>silastaiwo@gmail.com</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>heritagetantoluwa</td>
+                    <td>tanto25@gmail.com</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- FORMS-->
+        <form action="process.php" method="POST">         
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="firstName"
+                placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" name="lastName"
+                placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label>Message:</label>
+                <textarea name="message"
+                placeholder="Write message"></textarea>
+            </div>
+            <br>
+            </div>
+                <label>Gender:</label>
+                <select name="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="other">other</option>
+                </select>
+            <div>
+            <br>
+            <div>
+                <label>age</label>
+                <input type="number" name="age" value=""
+                placeholder="Input age">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit"
+            value="submit">
+        </form>
+
+             <!-- Button -->
+        <br>
+        <div>
+        <br>
+        <button>Click me</button>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+            <!--images-->
+        <a href="Images/nature.jpeg">
+            <img src="Images/nature.jpeg" alt="my nature image"
+            width="200">
+        </a>
+
+            <!-- Quotations -->
+        <blockquote cite="http://keennyoung.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ratione voluptas. Fugit vero veniam cumque eum ea fuga ratione dolore eius est. Nemo quae ducimus doloribus modi dolore tempore corrupti!
+        </blockquote>
+        
+        <p>The <abbr title="world wide web">WWW</abbr> is awesome
+        </p>
+        <p><cite>crash course</cite> by OBI KENNETH
+        </p>
+    </body>
+</html> 
